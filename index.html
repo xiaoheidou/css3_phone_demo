@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="renderer" content="webkit">
+    <title>ball</title>
+    <meta name="viewport" content="initial-scale=1.0,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <link rel="stylesheet" href="css/ball.css"/>
+    <title></title>
+</head>
+<body>
+
+<div class="main">
+    <div>
+        <img class="bg" src="img/bg1.jpg" alt=""/>
+    </div>
+    <div>
+        <img class="ball animated rotateInUpRight" src="img/ball.png" alt=""/>
+    </div>
+    <div>
+        <img class="star animated hinge bounceIn hinge" src="img/start.png" alt=""/>
+    </div>
+    <div>
+        <img class="guang animated hinge bounceOut" src="img/guang1.png" alt=""/>
+    </div>
+    <div>
+        <img class="star_1 rotate" src="img/star_1.png" alt=""/>
+    </div>
+    <div>
+        <img class="text animated hinge bounceInUp" src="img/text.png" alt=""/>
+    </div>
+    <div id="background" class="wall"></div>
+    <div id="midground" class="wall"></div>
+    <div id="foreground" class="wall"></div>
+</div>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script>
+
+    setTimeout("$('.rotate').css('display','block');", 2000);
+
+</script>
+
+</body>
+</html>

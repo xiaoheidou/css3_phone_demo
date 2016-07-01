@@ -1,0 +1,23 @@
+{
+  "name": "css3_phone_demo",
+  "version": "1.0.0",
+  "description": "手机动效（css3）",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoheidou/css3_phone_demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaoheidou/css3_phone_demo/issues"
+  },
+  "homepage": "https://github.com/xiaoheidou/css3_phone_demo#readme",
+  "devDependencies": {
+    "jquery": "^3.0.0"
+  }
+}
